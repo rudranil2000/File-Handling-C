@@ -14,7 +14,7 @@ int main( )
     char dataToBeWritten[50] 
         = "Basic operations of file handling";
   
-    // Open the existing file GfgTest.c using fopen()
+    // Open the existing file data.txt using fopen()
     // in write mode using "w" attribute
     filePointer = fopen("data.txt", "w") ;
       
